@@ -7,7 +7,7 @@ import smtplib
 import json
 import time
 
-url = 'https://app.quest3.xyz/OptiChads'
+url = ''
 
 page = urlopen(url)
 html = page.read().decode("utf-8")
